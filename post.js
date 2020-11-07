@@ -20,7 +20,6 @@ function postb(e){
     </div>
     <div class="card-body">
       <p class="card-text">${textValue}</p>
-      <a href="#" class="btn btn-info">Like</a>
     </div>
     <div class="card-footer text-muted">
        <pre><b>Publishing Date :</b> ${date}-${month}-${year}     <b>Publishing Time :</b> ${hours}:${minutes}:${seconds}</pre>
