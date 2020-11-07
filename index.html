@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>protection.com</title>
+   
+   <link rel="stylesheet" href="index.css">
+</head>
+<body style="background-image: url('https://peoplesdispatch.org/wp-content/uploads/2019/12/NO-CAB_CAA_-NO-NRC_All-India-protest_.jpg');">
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="signup.html" target="_blank">sign up</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            
+          <i class="fa fa-bars"></i>
+        </a>
+
+        <div class="bg-image"></div>
+
+<div class="bg-text">
+  <h2>We Come We Solve</h2>
+  <h1 style="font-size:50px">Protect Solution</h1>
+  <p>decis our problem with gov</p>
+</div>
+       
+      </div>
+      <button class="open-button" onclick="openForm()">Open Form</button>
+
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Login</h1>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit" class="btn" formaction="prashant.html">Login</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+
+
+      <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+      
+</body>
+</html>
